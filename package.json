@@ -1,0 +1,16 @@
+{
+  "name": "bus-chart",
+  "version": "0.0.1",
+  "description": "Chart for bus hours",
+  "author": "Roi Noy <noy20052@gmail.com>",
+  "contributors": [
+    {
+      "name": "Roi Noy",
+      "email": "noy20052@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.64.0"
+  }
+}
