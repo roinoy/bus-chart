@@ -16,7 +16,7 @@ $.ajax({
 		var labels = [];
 		var data = [];
 		for (var t in dic) {
-			labels.push((+t || 12) + ': 00');
+			labels.push(t + ': 00');
 			data.push(dic[t]);
 		}
 		showChart(labels, data);
