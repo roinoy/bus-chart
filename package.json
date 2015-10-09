@@ -1,19 +1,25 @@
 {
   "name": "bus-chart",
-  "version": "0.0.1",
-  "description": "Chart for bus hours",
-  "author": "Roi Noy <noy20052@gmail.com>",
-  "contributors": [
-    {
-      "name": "Roi Noy",
-      "email": "noy20052@gmail.com"
-    }
-  ],
-  "scripts": {
-    "start": "node server.js"
-  },
+  "version": "1.0.0",
+  "description": "bus chart for the hours",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.13.3",
     "request": "^2.64.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roinoy/bus-chart.git"
+  },
+  "author": "roi noy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roinoy/bus-chart/issues"
+  },
+  "homepage": "https://github.com/roinoy/bus-chart#readme"
 }
